@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\hivan\\Downloads\\Shop Samsung_v1.0.29030_apkpure.com.apk', true)
+Mobile.startApplication('MobileApp\\Shop Samsung.apk', true)
 
 Mobile.scrollToText('GET STARTED')
 
