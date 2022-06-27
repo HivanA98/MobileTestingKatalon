@@ -35,15 +35,7 @@ Mobile.tap(findTestObject('Object Repository/Shop/android.widget.Image - Block i
 
 Mobile.tap(findTestObject('Object Repository/Shop/android.widget.Image - Ponds Age Miracle Youth Boosting Whip 50g'), 0)
 
-Mobile.scrollToText('Quantity')
-
-Mobile.tap(findTestObject('Object Repository/Shop/android.widget.Button - Add to Bag'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Shop/android.widget.Button - Go to Checkout'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Shop/android.view.View - Please choose'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Shop/android.widget.CheckedTextView - 5'), 0)
+Mobile.tap(findTestObject('android.widget.Button - Go to Checkout'), 0)
 
 Mobile.getText(findTestObject('Object Repository/Shop/android.view.View - If you have any inquiries or updates pls whatsap us at 94617563'), 
     0)
