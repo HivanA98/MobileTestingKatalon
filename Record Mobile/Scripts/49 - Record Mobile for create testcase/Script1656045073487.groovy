@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\hivan\\Downloads\\app-pendaki.apk', true)
+Mobile.startApplication('mobileApp\\app-pendaki.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('klik tab'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('android.widget.CheckedTextView - Peralatan'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.RelativeLayout (1)'), 0)
+Mobile.tap(findTestObject('android.widget.TextView - Tenda'), 0)
 
-Mobile.getText(findTestObject(''), 0)
+Mobile.getText(findTestObject('deskripsi'), 0)
 
 Mobile.closeApplication()
 
